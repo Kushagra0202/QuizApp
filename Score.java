@@ -41,7 +41,7 @@ public class Score extends JFrame implements ActionListener{
         image.setBounds(0,200,300,350);
         add(image);
         
-        JLabel heading = new JLabel("THANK YOU "+ name+" FOR PLAYING");
+        JLabel heading = new JLabel("THANK YOU "+ name.toUpperCase()+" FOR PLAYING");
         heading.setBounds(45, 30, 700, 30);
         heading.setFont(new Font("ITALIC",Font.PLAIN,26));
         heading.setForeground(Color.red);
