@@ -26,8 +26,8 @@ public class rules extends JFrame implements ActionListener {
                 "1. The test contains 10 questions." +"<br><br>"+
                 "2. There is a 15 sec time limit on each question" + "<br><br>"+
                 "3. The test is not official, it's just a nice way to see how much you know, or don't know, about Java." +"<br><br>"+
-                "4. Each  question carries 1 mark."+"<br><br>"+
-                "5. In order to pass the test you need to score a min of 4 marks."+"<br><br>"+
+                "4. Each  question carries 10 mark."+"<br><br>"+
+                "5. In order to pass the test you need to score a min of 40 marks."+"<br><br>"+
                  "<html>"   
         );
         add(rules);
